@@ -1,0 +1,53 @@
+<!-- Simple Login Page  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form webpage</title>
+
+    <!-- css code for making it more user freindly -->
+
+    <style>
+        /* heading ko centre me lane ke liye  */
+        h2{
+            text-align: center;
+        }
+        /* Box ke andar ke content ko customize krne ke liye */
+        fieldset{
+            border: 2.5px solid red ;
+            text-align: center;
+            background-color: bisque;
+            width: 400px;
+            margin:auto;
+        }
+
+    </style>
+
+</head>
+<body>
+    <form action="backend.php">
+        <h2>Login form</h2>
+
+        <fieldset>
+            <legend> <h3><b>Login</b></h3></legend> <br>
+        <div>
+            <label for="Username/Email"> <b>Username/Email :</b></label>
+            <input type="text" name="Username/Email" id="Username/Email" required>
+        </div> <br>
+
+        <div>
+            <label for="Password"> <b>Password &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :</b></label>
+            <input type="password" name="Password" id="Password" required>
+            
+        </div> <br>
+
+        <div>
+            <input type="submit" value="Login">
+        </div> <br>
+        </fieldset>
+
+    </form>
+</body>
+</html>
